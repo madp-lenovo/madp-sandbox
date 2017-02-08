@@ -1,0 +1,26 @@
+spring:
+    redis:
+      jedis:
+        ip: 10.120.16.228
+        port: 6379
+        auth: abcd-1234
+    aop:
+      proxy-target-class: true
+
+ad:
+ ldapurl: LDAP://lenovo.com
+ port: 389
+ context_factory: com.sun.jndi.ldap.LdapCtxFactory
+ authentication: simple
+ userhead: lenovo\\
+ basicInfo: sAMAccountName,displayName,msExchExtensionAttribute16,telephoneNumber,mail
+ extensionInfo: title,department,physicalDeliveryOfficeName,l,c,mobile,manager,msExchExtensionAttribute16,sAMAccountName,displayName,telephoneNumber
+
+mongodb:
+  username: #portal
+  source: portal
+  password: #madpadmin
+  serverAddress: 10.120.16.231 
+  port: 27017
+  
+pagesize: 20
