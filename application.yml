@@ -1,0 +1,9 @@
+systemInfo:
+  name: madp
+  age: 20
+  gender: m
+  company: lenovo
+ 
+spring:
+  profiles:
+    active: dev
