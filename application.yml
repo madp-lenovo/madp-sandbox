@@ -1,7 +1,7 @@
 spring:
     redis:
       jedis:
-        ip: 10.120.16.228
+        ip: 10.122.12.244
         port: 6379
         auth: abcd-1234
     aop:
@@ -17,10 +17,10 @@ ad:
  extensionInfo: title,department,physicalDeliveryOfficeName,l,c,mobile,manager,msExchExtensionAttribute16,sAMAccountName,displayName,telephoneNumber
 
 mongodb:
-  username: #portal
+  username: portal
   source: portal
-  password: #madpadmin
-  serverAddress: 10.120.16.231 
+  password: madpadmin
+  serverAddress: 10.122.12.246 
   port: 27017
   
 pagesize: 20
