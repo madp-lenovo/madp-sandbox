@@ -17,10 +17,13 @@ ad:
  extensionInfo: title,department,physicalDeliveryOfficeName,l,c,mobile,manager,msExchExtensionAttribute16,sAMAccountName,displayName,telephoneNumber
 
 mongodb:
-  username: portal
+  #username: portal
   source: portal
-  password: madpadmin
-  serverAddress: 10.122.12.246 
+  #password: madpadmin
+  #serverAddress: 10.122.12.246 
+  username:
+  password:
+  serverAddress: 10.120.16.231
   port: 27017
   
 pagesize: 20
