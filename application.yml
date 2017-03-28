@@ -6,6 +6,13 @@ spring:
         auth: abcd-1234
     aop:
       proxy-target-class: true
+    rabbitmq:
+      host: 10.120.121.13
+      port: 5672
+      username: rabbitmq
+      password: abcd-1234
+      queueName: demo_queue
+      exchangeName: demo_exchange  
 
 ad:
  ldapurl: LDAP://lenovo.com
