@@ -1,7 +1,7 @@
 spring:
     redis:
       jedis:
-        ip: 10.122.12.244
+        ip: 10.120.121.16
         port: 6379
         auth: abcd-1234
     aop:
