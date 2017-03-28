@@ -6,10 +6,7 @@ spring:
         auth: abcd-1234
     aop:
       proxy-target-class: true
-    rabbitmq:
-      host: 10.120.121.13
-      port: 5672
-      password: abcd-1234
+
  
 
 ad:
